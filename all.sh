@@ -1,4 +1,7 @@
 #/bin/bash
+git stash
+git pull
+git stash pop
 
 env PYTHONDONTWRITEBYTECODE=1 &>/dev/null
 env TF_CPP_MIN_LOG_LEVEL=1 &>/dev/null
