@@ -54,7 +54,7 @@
 
 |模板文件|内容|类型|例子|
 |---|---|---|---|
-|webui.txt|指定要安装的SD WebUI版本。 可选：在#后指定分支。注意：写多个webui，只有第一个会生效|必须是git repo地址|https://github.com/camenduru/stable-diffusion-webui#v2.1|
+|webui.txt|指定要安装的SD WebUI版本。 可选：在#后指定分支。注意：写多个webui，只有第一个会生效|必须是git repo地址|https://github.com/camenduru/stable-diffusion-webui#v2.3|
 |extensions.txt|指定要安装的插件。|必须是git repo地址|https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN|
 |scripts.txt|额外需要安装在scripts目录下的额外脚本文件。|均可|https://raw.githubusercontent.com/camenduru/stable-diffusion-webui-scripts/main/run_n_times.py|
 |embeddings.txt|需要下载安装的embeddings。|均可|
